@@ -20,5 +20,8 @@ jobs:
 
       - name: Check repository criteria
         uses: ACR-Wonderland/test-action-redis@v1
+        with:
+          redis_url: ${{ secrets.UPSTASH_REDIS_REST_URL }} 
+          redis_token: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
     
         
