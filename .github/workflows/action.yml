@@ -1,4 +1,4 @@
-name: Autograder
+name: Autogradera
 
 on:
   push:
