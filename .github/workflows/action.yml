@@ -1,4 +1,4 @@
-name: Autograderw
+name: Autograder
 
 on:
   push:
